@@ -1,0 +1,28 @@
+<ion-app>
+  <ion-split-pane contentId="main">
+    <!--  the side menu  -->
+    <ion-menu contentId="main" side="start" type="overlay">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title color="cofi">Menu</ion-title>
+        
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-item><ion-icon color="verde" name="person-circle-outline"></ion-icon> Perfil</ion-item>
+          <ion-item><ion-icon color="verde" name="mail-unread-outline"></ion-icon>Mensajes</ion-item>
+          <ion-item><ion-icon color="verde" name="heart-outline"></ion-icon>Favoritos</ion-item>
+          <ion-item><ion-icon color="verde" name="chatbubbles-outline"></ion-icon>Foro</ion-item>
+          <ion-item><ion-icon color="verde" name="help-outline"></ion-icon>Ayuda</ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    
+  
+    <!-- the main content -->
+    <ion-router-outlet id="main"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
+
+
